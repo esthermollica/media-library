@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title><?php echo "$pageTitle"; ?></title>
+	<title><?php echo $pageTitle; ?></title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -9,7 +9,7 @@
 
 		<div class="wrapper">
 
-			<h1 class="branding-title"><a href="./">Personal Media Library</a></h1>
+			<h1 class="branding-title"><a href="/">Personal Media Library</a></h1>
 
 			<ul class="nav">
                 <li class="books<?php if ($section == "books") { echo " on"; } ?>"><a href="catalog.php?cat=books">Books</a></li>
