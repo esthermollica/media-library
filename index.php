@@ -1,4 +1,4 @@
-<?php
+<?php 
 include("inc/data.php");
 include("inc/functions.php");
 
@@ -18,7 +18,7 @@ include("inc/header.php"); ?>
             foreach ($random as $id) {
                 echo get_item_html($id,$catalog[$id]);
             }
-            ?>
+            ?>							
 				</ul>
 
 			</div>

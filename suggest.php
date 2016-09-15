@@ -1,4 +1,4 @@
-<?php
+<?php 
 $pageTitle = "Suggest a Media Item";
 $section = "suggest";
 
